@@ -82,12 +82,5 @@
 #   container
 # end
 
-def begins_with_r(array)
-  array.each do |name|
-    if name.start_with?("r")
-      return true
-    elsif name.start_with?(!"r")
-      return false
-    end
-  end
-end
+def first_wa(array)
+  
