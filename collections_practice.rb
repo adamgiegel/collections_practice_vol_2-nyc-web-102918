@@ -82,3 +82,6 @@
 #   container
 # end
 
+def begins_with_r(array)
+  array.each do |name|
+    if name.starts
