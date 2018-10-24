@@ -85,3 +85,6 @@
 def begins_with_r(array)
   array.each do |name|
     if name.start_with?("r")
+      return true
+    else 
+      return false
